@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>To Do App</title>
+
+</head>
+<body>
+    <div class="container">
+        <header class="text center text light my-4">
+            <h1 class="mb-4 text-center">To Do App</h1>
+            <form class="search">
+              <input class="form-control" type="text" name="search" placeholder="Ara...">
+            </form>
+        </header>
+
+        <ul class="list-group text-light todos">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Yıldız Parkı'nda çizim yap</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Arkadaşına doğum günü pastası yap</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Alışverişe çık</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+        </ul>
+
+        <form class="text-center my-4 add">
+            <label class="text-light">Yeni ekle</label>
+            <input class="form-control m-auto" type="text" name="add" />
+        </form>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/8c1e095c0b.js" crossorigin="anonymous"></script>
+    <script src="diğer.js"></script>
+</body>
+</html>
